@@ -16,6 +16,10 @@ app.get('/', (req, res) => {
     res.send("Hello world!");
 });
 
+app.get('/test', (req, res) => {
+    res.send("Hello world2!");
+});
+
 app.post('/add', (req, res) => {
 
     let num1 = req.body.num1;
